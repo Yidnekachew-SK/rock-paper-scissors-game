@@ -1,0 +1,60 @@
+body{
+	height: 580px;
+	border: 2px solid green;
+	background-color: lightblue;
+}
+
+header{
+	margin: 0 20px;
+	margin-bottom: 50px;
+	text-align: center;
+	border-bottom: 2px solid gray;
+
+}
+
+.buttons{
+	margin: 20px 20px;
+	text-align: center;
+}
+
+button{
+	font-size: 20px;
+	padding: 10px 20px;
+	margin-right: 150px;
+	border: 2px solid blue;
+	border-radius: 10px;
+	background-color: lightcyan;
+}
+
+.results{
+	padding: 15px 20px;
+	margin: 30px 20px;
+}
+
+.roundDescription{
+	font-size: 20px;
+	color: purple;
+	padding: 10px 30px;
+	margin: 15px 10px;
+}
+
+.scores{
+	margin: 0 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.scores p{
+	font-size: 25px;
+	padding: 10px 20px;
+	margin: 15px 10px;
+}
+
+.gameOver{
+	padding: 10px 20px;
+	margin: 15px 10px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	color: red;
+}
